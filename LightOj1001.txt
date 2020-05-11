@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int t,n,m,d,s;
+    cin>>t;
+    if(t<=125){
+        while(t!=0){
+            cin>>n;
+            if(n>=0&&n<=20){
+               m=n/2;
+               d=n-m;
+                cout<<m<<" "<<d<<endl;
+            }
+t--;
+        }
+    }
+}
